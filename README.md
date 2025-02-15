@@ -1,14 +1,15 @@
-This document contains the following:
-	•	
-	•	Supplementary Information SI1: Detailed calculations of the model
-	•	Supplementary Information SI2: Data acquisition and preparation results for producing pre-set configurations
-	•	Supplementary Information SI3: PETRAUL code and Jupyter Notebooks used in the study organized in four files:
-	⁃	3A: Parametrization of gasoline engines, electric engines, and transmissions
-	⁃	3B: Preparation of driving cycles
-	⁃	3C: Model validation, including the collection of EC data from literature and its comparison with the theoretical model	
-	⁃	3D: PETRAUL code and pre-set configurations, along with a Jupyter Notebook with illustrative cases
-	•	Supplementary Information SI4: Data acquisition and preparation for the LCA case study which compares a lightweight polycarbonate glazing with a traditional glass glazing for automobile
+This repository contains the code and datasets for the PETRAUL software.
+Link to the PETRAUL tool: https://petraul.streamlit.app/
 
- Authors: Gabriel Magnaval and Pr. Anne-Marie Boulay
+Repository contents:
+Supplementary Information SI3: PETRAUL code and Jupyter Notebooks used in the study, organized into four files:
+3A: Parameterization of gasoline engines, electric engines, and transmissions
+3B: Preparation of driving cycles
+3C: Model validation, including the collection of EC data from the literature and its comparison with the theoretical model
+3D: PETRAUL code and pre-set configurations, along with a Jupyter Notebook featuring illustrative cases
+Supplementary Information SI4: Data acquisition and preparation for the LCA case study, comparing lightweight polycarbonate glazing with traditional glass glazing for automobiles
 
- Link to PETRAUL tool: https://petraul.streamlit.app/
+Documentation for this tool is available here: 10.5281/zenodo.14874993
+
+Authors: Gabriel Magnaval and Prof. Anne-Marie Boulay
+
