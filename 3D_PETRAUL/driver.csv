@@ -1,0 +1,6 @@
+﻿Driver Variables;Average_EU;Average_US;Extra Eco;Ecodriver;Average;Aggres.;Extra Aggres.
+B [m/s2];0.72;0.72;0.43;0.55;0.72;1.06;1.32
+mu_v;0.98;1.08;0.8;0.9;1;1.1;1.22
+mu_a;0.08;0.05;0.04;0.05;0.075;0.1;0.14
+mu_N;1;1.2;0.8;0.9;1;1.1;1.3
+M_payload [kg];100;100;70;100;150;200;300
