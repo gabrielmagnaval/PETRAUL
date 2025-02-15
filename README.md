@@ -1,4 +1,4 @@
-This repository contains the code and datasets for the PETRAUL software.
+This repository contains the code and datasets for the PETRAUL software. PETRAUL is a tool for calculating automobile energy consumption for both gasoline vehicles (GV) and battery electric vehicles (BEV) based on a parameterized model and pre-set configurations.
 Link to the PETRAUL tool: https://petraul.streamlit.app/
 
 Repository contents:
