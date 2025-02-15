@@ -6,19 +6,27 @@ st.title("Welcome to the Energy Consumption Comparison Tool")
 
 
 
-st.write("This app is the first version of the PETRAUL . It aims to be used for accurately model the energy consumption of automobile in LCA, for foreground application (calculation of Parameter Induced Energy Consumption) or for background application (representativeness of energy consumption).")
-st.write("Warning: The app is still under development. In case of problem, please contact app owner at gabriel.magnaval@hevs.ch. Any feedback is valuable to help us in further developing the app.")
+st.write("This app is the first version of the PETRAUL .It is designed to accurately model the energy consumption of automobile in LCA, for foreground application (calculation of Parameter Influence on Energy Consumption) or for background application (representativeness of energy consumption).")
+st.write("Warning: The app is still under development. If you encounter any issues, please contact app owner at gabriel.magnaval@hevs.ch. Any feedback is valuable to help us further improve the app.")
 
-st.write('Details on the equations and the pre-set configurations can be found in the supplementary information, available here: ')
+st.write('Details on the equations and the pre-set configurations can be found in the supplementary information, available here: 10.5281/zenodo.14874993')
 
 with st.expander("How to use this tool?"):
-
-    st.write("Calculation of your personalized energy consumption can be done on the Energy Consumption page for ICEV (gasoline vehicles) and BEV (battery vehicles). You can select on the upper right of the page your powertrain.")
-    st.write("Pre-set configurations for the main contributors to Energy Consumption have been collected and computed. Select the configuration you want for each contributor to compute a first round of calculation.")
-    st.write("Results page show the energy consumption per 100km, and the contribution of each loss over the results. You can also calculate the desired PIEC using the expander on the Energy Consumption page.")
-    st.write("You can improve the preciseness of the model by changing the parameters of the model in the different detailed pages you can find in the lateral window, or by clicking on 'detailed' boxes. Save your work to compute the changes. You can either create your new scenario or update an existing one. Click on 'Reset the scenarios' to restart from scratch teh scenario modeling.")
-    st.write("If a problem occurs, do not hesitate to clean the session by clicking on 'Reset All' in the EnergyConsumption page.")
-
+    st.write(
+        "You can calculate personalized energy consumption on the **Energy Consumption** page for **ICEV (gasoline vehicles)** and **BEV (battery electric vehicles)**. Select your powertrain from the upper right corner of the page."
+    )
+    st.write(
+        "Pre-set configurations for key contributors to energy consumption have been collected and computed. Select the desired configuration for each contributor to perform an initial calculation."
+    )
+    st.write(
+        "The **Results** page displays energy consumption per 100 km and the contribution of each loss category. You can also calculate the desired **PIEC** using the expander on the Energy Consumption page."
+    )
+    st.write(
+        "You can improve model accuracy by adjusting parameters in the detailed pages available in the side menu or by clicking on 'Detailed' boxes. Save your work to apply changes. You can either create a new scenario or update an existing one. Click **'Reset the scenarios'** to restart scenario modeling from scratch."
+    )
+    st.write(
+        "If a problem occurs, try clearing the session by clicking **'Reset All'** on the Energy Consumption page."
+    )
 
 if st.button("Open Model"):
 
